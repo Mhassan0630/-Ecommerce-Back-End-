@@ -21,6 +21,18 @@ These instructions will help you set up the project on your local machine for de
 5. Run the database migrations and seed the database with sample data:
 6. Start the server:
 
+## Usage
+
+1. Run npm i to install all required dependencies.
+2. Provide your username, password, and database name (ecommerce_db) in the .env file.
+3. Access MySQL, then execute the schema.sql file located in the db folder to create the database.
+4. Exit MySQL and execute index.js within the seeds folder to populate the database with sample data.
+5. Use the command npm start to launch the server.
+6. Utilize an API client like Insomnia to perform GET, POST, PUT (update), and DELETE operations on categories, tags, and products.
+
+https://drive.google.com/file/d/1deZ5La4bnuDi8wg4HuqCyn5PMTfiIzt4/view
+
+
 ## API Endpoints
 
 The API provides the following endpoints for interacting with the data:
